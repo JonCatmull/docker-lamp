@@ -1,7 +1,7 @@
 
 # Launch Script
 ```
-curl -o lightsail-compose.sh https://raw.githubusercontent.com/JonCatmull/docker/master/lightsail-compose.sh
+curl -o lightsail-compose.sh https://raw.githubusercontent.com/JonCatmull/docker-lamp/master/lightsail-compose.sh
 
 chmod +x ./lightsail-compose.sh
 
