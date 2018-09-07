@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  website:
+    build: .
+    volumes:
+      - ./app:/app
+      - ./mysql:/var/lib/mysql
+    ports:
+      - "8080:80"
+      - "3306:3306"
