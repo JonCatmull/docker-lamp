@@ -1,3 +1,16 @@
+
+# Launch Script
+```
+curl -o lightsail-compose.sh https://raw.githubusercontent.com/JonCatmull/docker/master/lightsail-compose.sh
+
+chmod +x ./lightsail-compose.sh
+
+./lightsail-compose.sh
+```
+
+
+# Docker LAMP readme ...
+
 # ![Docker-LAMP][logo]
 Docker-LAMP is a set of docker images that include the phusion baseimage (both 14.04 and 16.04 varieties), along with a LAMP stack ([Apache][apache], [MySQL][mysql] and [PHP][php]) all in one handy package.
 
