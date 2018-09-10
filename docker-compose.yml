@@ -3,8 +3,14 @@ version: '3'
 services:
   website:
     image: category5/docker-test:2.0.0
+    networks:
+      - testapp_net
     # volumes:
     #   - ./app:/app
     #   - ./mysql:/var/lib/mysql
     ports:
-      - "8080:80"
+      - "80:80"
+
+networks:
+  testapp_net:
+
