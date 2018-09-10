@@ -2,7 +2,7 @@ version: '3'
 
 services:
   website:
-    build: category5/docker-test:2.0.0
+    image: category5/docker-test:2.0.0
     # volumes:
     #   - ./app:/app
     #   - ./mysql:/var/lib/mysql
