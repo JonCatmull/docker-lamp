@@ -6,13 +6,13 @@
     <body>
         <h1>Test shop</h1>
 
-
+<p>Machine name: <?php echo gethostname()?></p>
 
 
 <?php
-$servername = "localhost";
-$username = "admin";
-$password = "95t8wNYqKMfh";
+$servername = "eatest.ckaexinty6he.eu-west-2.rds.amazonaws.com:3306";
+$username = "eatest";
+$password = "eatest123";
 $dbname = "eadvisor";
 
 // Create connection

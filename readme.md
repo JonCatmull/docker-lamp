@@ -8,6 +8,14 @@ chmod +x ./lightsail-compose.sh
 ./lightsail-compose.sh
 ```
 
+```
+curl -o lightsail-compose.sh https://raw.githubusercontent.com/mikegcoleman/todo/master/lightsail-compose.sh
+
+chmod +x ./lightsail-compose.sh
+
+./lightsail-compose.sh
+```
+
 
 # Docker LAMP readme ...
 
